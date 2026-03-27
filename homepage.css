@@ -1,7 +1,7 @@
 body{
     margin:0;
     background-image: url("photos/Copy\ of\ Copy\ of\ Blueprint.png");
-    background-repeat: no-repeat;
+    background-repeat:cover;
     background-size: 100%;
 }
 
@@ -70,12 +70,198 @@ button:hover{
 
 /* Section part */
 
-#left-part-text{
+section{
+    padding: 5vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 
+}
+
+#left-part-text{
+    margin-right: 15vw;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px;
+    text-align: left;
+    position: relative;
+    left: 5vw;
+    top: 8vh 
+    
+
+}
+
+#slogan{
+    
+    color:white;
+    font-size: 3.5vw;
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    position: relative;
+    left: 0.1vw;
+}
+
+p{
+    
+    max-width: 40vw;
+    text-align: justify;
+    color: rgb(176, 202, 212);
+    font-size: 1.1rem;
+    font-family: Zain;
+    white-space: normal; 
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+#login-container{
+    background-color: rgba(209, 207, 207, 0.158);
+    width: 450px;
+    height: 60vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2vw;
+    position: relative;
+    bottom: 6vh;
+    gap: 1vh
+    
+}
+
+
+#user-profile{
+    width: 6vw;
+    position: relative;
+    bottom: 7vh;
+}
+
+
+
+#Email{
+    padding-left: 1vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(209, 207, 207, 0.103);
+    color: white;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 17px;
+    border: 1px solid rgb(216, 215, 215);
+    position: relative;
+    bottom: 6vh;
+    font-size: medium;
+
+}
+
+#Email::placeholder{
+    color: rgba(255, 255, 255, 0.356);
+    text-align: center;
+    font-family: verdana;
+    font-weight: 800;
+    font-size: medium;
+}
+
+#Password{
+    padding-left: 1vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(209, 207, 207, 0.103);
+    color: white;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 17px;
+    border: 1px solid rgb(216, 215, 215);
+    position: relative;
+    bottom: 3vh;
+    font-size: medium;
 
 }
 
 
-#login-cointainer{
+#Password::placeholder{
+    color: rgba(255, 255, 255, 0.356);
+    text-align: center;
+    font-family: verdana;
+    font-weight: 800;
+    font-size: medium;
+}
 
+#radio-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    width: 16vw;; 
+    gap: 0;                           
+}
+
+#radio {
+    appearance: none;                       
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.103);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#radio:hover{
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+#radio:checked{
+    background-color: white;        
+    border-color: white;
+}
+
+#remember-me{
+    font-size: 1.4vh;
+    color: white;
+    font-family: Verdana;
+    cursor: pointer;
+    position: relative;
+    right: 1vw;
+}
+
+#forgot-container{
+    
+    gap:10px
+}
+
+#forgot{
+    text-decoration: none;
+    position: flex;
+    justify-content: flex-end;
+    font-size: 1.4vh;
+    color: white;
+    font-family: verdana;
+}
+
+#forgot:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#submit-button{
+    background-color: rgba(255, 255, 255, 0.103);
+    color: rgba(0, 0, 0, 0.548);
+    margin-top: 2vh;
+    width: 9vw;
+    height: 6.5vh;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#submit-button:hover{
+    background-color: rgba(255, 255, 255, 0.699);
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.753);
+    color: rgb(0, 0, 0);
 }
