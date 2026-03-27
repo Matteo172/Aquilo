@@ -134,7 +134,7 @@ p{
     width: 8vw;
     height: 4vh;
     font-weight: bold;
-    width: clamp(80px, 8vw, 130px);   /* ✅ responsive width */
+    width: clamp(80px, 8vw, 130px); 
     height: clamp(35px, 4vh, 50px);
     margin: 2vw;
 }
