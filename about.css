@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 2vw;
+    gap: 10%;
+    flex-wrap: wrap;
+    background-image: url(photos/background3.png);
+}
+
+
+.logo-container{
+    margin: 5px 30px;
+    display: flex;
+    align-items: center;
+    gap: -20px;
+}
+
+#logo{
+    width: 150px;
+}
+
+#logo-name{
+    margin: 0;
+    font-variant: small-caps;
+    color: white;
+    font-family: "Molle";
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.underline-logo-name{
+    text-decoration:none;
+}
+
+/* Buttons */
+.button-container{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 25px;
+    margin-right: 2%;
+}
+
+
+
+/* Home Button */
+
+button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: white;
+    font-family: Verdana;
+    height: 30px;
+    width:100px;
+    border-radius: 5px;
+    transition: width 0.5s, border-color 0.2s;
+    font-size: 13px;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    width:110px;
+}
+
+header{
+    width: max-content;
+    height:max-content;
+    background-image: url(photos/background4.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    width: max-content;
+    height:max-content;
+    background-image: url(photos/background5.png);
+    background-repeat: no-repeat;
+
+}
