@@ -1,0 +1,86 @@
+html{
+    
+}
+
+body{
+    margin:0;
+    background-image: url("photos/backstreetboyscontacts.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.upper-nav{
+    background-color: rgba(0, 0, 0, 0.636);
+    backdrop-filter:blur(10px);
+    background-repeat: no-repeat;
+    background-position: nowrap;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.logo_container{
+    margin: 0;
+    position: relative;
+    right: 13%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+
+}
+
+#logo_name{
+    color: rgb(255, 255, 255);
+    font-family: verdana;
+    margin-bottom: 0;
+}
+
+.contents_container{    
+    margin-left: 19%;
+    color: white;
+    font-family: verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: nowrap;   
+    padding: 2vh; 
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: "Miranda Sans", sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: 40%;
+    top: 1.8vh;
+    font-weight: 700;
+    font-size: 97%;
+    letter-spacing: 0.3vh;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+header{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.777), rgba(255, 255, 255, 0.053));
+    
+    padding: 21.1%;
+
+    
+    
+}
+
+
+.get-in-touch{
+    
+}
